@@ -1,13 +1,152 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.websiteBackground {
+  background: linear-gradient(to right, #94bbe9, #eeaeca, #94bbe9);
+}
+.card-container {
+  background-color: rgba(22, 158, 248, 0.8);
+  height: 567px;
+  border-radius: 10px;
+}
+.logo {
+  height: auto;
+  width: auto;
+  max-width: 72px;
+  max-height: 250px;
+  padding-right: 10px;
+}
+.skating {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   height: 325px; 
+   width: 325px; 
+  clip-path: circle();
+}
+.navbar {
+  position: fixed;
+  top: 0;
+}
+.nav {
+  border-radius: 10%;
+  background: linear-gradient(to right, #94bbe9, #eeaeca, #94bbe9);
+text-align: center;
+ display: contents;
+}
+.classroomInfo {
+  background-color: #fcd5d5!important;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.Infants {
+  width: 400px;
+  height: 230px;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  background-position: center;
+  background-image: url(/src/components/images/infant.jpeg);
+}
+.Ones {
+  background-image: url(/src/components/images/toddler1.jpeg);
+  width: 400px;
+  height: 230px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+  background-position: center;
+}
+.Twos {
+  background-image: url(/src/components/images/toddler2.jpeg);
+  width: 400px;
+  height: 230px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  background-position: center;
+}
+.Threes {
+  width: 400px;
+  height: 230px;
+  background-image: url(/src/components/images/pre3.jpeg);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  background-position: center;
+}
+.FourFive {
+  background-image: url(/src/components/images/pre45.jpeg);
+  width: 400px;
+  height: 230px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  background-position: center;
+}
+.SchoolKids {
+  background-image: url(/src/components/images/schoolkids.jpeg);
+  width: 400px;
+  height: 230px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  background-position: center;
+}
+.homeHeader {
+  background-image: url("/src/components/images/polkaDot.png");
+  text-align: center;
+}
+.homeWelcome {
+  text-align: center;
+}
+.steppingWordArt {
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10%;
+  font-size: xx-large ;
+  color: rgb(115, 115, 248);
+  letter-spacing: 3px;
+  text-shadow: 5px 5px 5px rgb(8, 8, 82);
+}
+.stonesWordArt {
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10%;
+  font-size: xx-large ;
+  color: lightcoral;
+  letter-spacing: 5px;
+  text-shadow: 5px 5px 5px rgb(158, 45, 45);;
+}
+.classroomTitle {
+  text-decoration: underline;
+  text-align: center;
+  color: rgb(52, 13, 179);
+  letter-spacing: 5px;
+  text-decoration-color: #76b1f5;
+  text-shadow: 5px 5px 20px rgb(45, 105, 158);;
+}
+  .classroomText {
+    text-shadow: 5px 5px 20px rgb(45, 45, 158);;
+    color: rgb(52, 13, 179);
+}
+  .homeSignature {
+    text-align: right;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+  .fa {
+    font-size: 25px;
+}
+.map {
+  background-position: center;
 }

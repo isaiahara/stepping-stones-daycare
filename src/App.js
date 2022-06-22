@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import HomePage from "./HomePage";
+import Infants from "./components/classrooms/Infants";
+import { NavigationBar } from "./NavBar";
+import { Routes, Route } from "react-router-dom";
+import Ones from "./components/classrooms/Ones";
+import Twos from "./components/classrooms/Twos";
+import Threes from "./components/classrooms/Threes";
+import FourFive from "./components/classrooms/FourFive";
+import SchoolKids from "./components/classrooms/SchoolKids";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        
+        <NavigationBar />
       </header>
+      <Routes>
+        <Route path="/" element={<HomePage />} exact />
+        <Route path="/Infants" element={<Infants />} />
+        <Route path="/Ones" element={<Ones />} />
+        <Route path="/Twos" element={<Twos />} />
+        <Route path="/Threes" element={<Threes />} />
+        <Route path="/FourFive" element={<FourFive />} />
+        <Route path="/SchoolKids" element={<SchoolKids />} />
+      </Routes>
+        <Footer />
     </div>
   );
 }
-
 export default App;
