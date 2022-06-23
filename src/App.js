@@ -11,6 +11,7 @@ import FourFive from "./components/classrooms/FourFive";
 import SchoolKids from "./components/classrooms/SchoolKids";
 import Footer from "./Footer";
 
+
 function App() {
   return (
     <div>
@@ -28,6 +29,7 @@ function App() {
         <Route path="/SchoolKids" element={<SchoolKids />} />
       </Routes>
         <Footer />
+        <server />
     </div>
   );
 }
